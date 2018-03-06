@@ -1,2 +1,3 @@
 # Chrome_History_delete
 you know what its for...
+You can implement it as an extension to another program or a standalone.
