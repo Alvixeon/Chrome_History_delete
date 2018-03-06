@@ -10,8 +10,8 @@ def Delete_History():
         os.chdir(PTHC)
     else:
         pass
-    PTHCLS = os.listdir(os.getcwd())
-    for i in PTHCLS:
+    PTHC_LS = os.listdir(os.getcwd())
+    for i in PTHC_LS:
         if i == "History":
             try:
                 os.remove(i)
