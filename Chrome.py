@@ -1,5 +1,4 @@
 import getpass,os
-global username
 global PTHC
 
 username = getpass.getuser()
