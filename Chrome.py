@@ -18,6 +18,7 @@ def Delete_History():
             except:
                 try:
                     os.system("taskkill /IM chrome.exe /F")
+                    Delete_History()
                 except:
                     pass
     
